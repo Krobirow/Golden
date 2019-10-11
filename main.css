@@ -5,7 +5,7 @@ body {
     background-color:white;
 }
 header {
-    background: url(../img/first-bg.jpg) no-repeat center top;
+    background: url(../Golden/img/first-bg.jpg) no-repeat center top;
     height: 100vh;
     background-clip: border-box;
     background-size: 100% 100%;
@@ -122,17 +122,17 @@ p {
     text-align: center;
 }
 .servlogo1 {
-    background-image: url('../img/icon1.png');
+    background-image: url('../Golden/img/icon1.png');
     background-position: top center;
     background-repeat: no-repeat;
 }
 .servlogo2 {
-    background-image: url('../img/icon2.png');
+    background-image: url('../Golden/img/icon2.png');
     background-position: top center;
     background-repeat: no-repeat;
 }
 .servlogo3 {
-    background-image: url('../img/icon3.png');
+    background-image: url('../Golden/img/icon3.png');
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -140,55 +140,55 @@ p {
     background-color: #f7f7f7;
     height: 550px;
 }
- .portfolio {
+.portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 180px;
- }
+}
 .portfolio p {
     margin-top: -30px;
     font-size: 16px;
     color: #777777;
 }
- .portfolioImg {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     height: 300px;
-     margin-top: 60px;
- }
- .portfoliImg1 {
-    background-image: url('..//img/img1.jpg'); 
+.portfolioImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    margin-top: 60px;
+}
+.portfoliImg1 {
+    background-image: url('../Golden/img/img1.jpg'); 
     background-position: top center;
     background-repeat: no-repeat;
     height: 300px;
     width: 310px; 
- }
- .portfoliImg2 { 
-    background-image: url('..//img/img2.jpg');
+}
+.portfoliImg2 { 
+    background-image: url('../Golden/img/img2.jpg');
     background-position: top center;
     background-repeat: no-repeat; 
     height: 300px;
     width: 310px; 
- }
- .portfoliImg3 {
-    background-image: url('..//img/img3.jpg');
+}
+.portfoliImg3 {
+    background-image: url('../Golden/img/img3.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     height: 300px;
     width: 310px; 
- }
- .aboutUs{
-     margin-top: 200px;
- }
- .aboutUs p {
+}
+.aboutUs{
+    margin-top: 200px;
+}
+.aboutUs p {
     margin-top: -30px;
     font-size: 16px;
     color: #777777;
 }
 .about1 {
-    background: url('..//img/about1.jpg');
+    background: url('../Golden/img/about1.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     height: 185px;
@@ -196,20 +196,20 @@ p {
     padding-left: 40px; 
 }
 .about2 {
-    background: url('..//img/about2.jpg');
+    background: url('../Golden/img/about2.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     height: 185px;
 }
 .about3 {
-    background: url('..//img/about3.jpg');
+    background: url('../Golden/img/about3.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     height: 185px;
     padding-left: 40px;
 }
 .about4 {
-    background: url('..//img/about4.jpg');
+    background: url('../Golden/img/about4.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     height: 185px;
