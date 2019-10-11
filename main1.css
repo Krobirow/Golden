@@ -1,0 +1,261 @@
+body {
+    margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:white;
+}
+header {
+    background: url(../img/first-bg.jpg) no-repeat center top;
+    height: 100vh;
+    background-clip: border-box;
+    background-size: 100% 100%;
+}
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+#header {
+    display: flex;
+    height: 100px;
+}
+.logoLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: 44px;
+    height: 30px;
+    width: 80px;
+}
+nav {
+    display: flex;
+    margin-top: 50px;
+}
+nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+}
+h2 {
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.titleMeet {
+    display: flex;
+    flex-direction: column;
+    margin-top: -7px;
+}
+h1 {
+    font-size: 72px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.buttonHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.buttonHeader :first-child {
+    height: 65px;
+    width: 240px;
+    background-color: #fed136;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #484543;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 73px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.services :last-child {
+    font-size: 16px;
+    color: #777777;
+    margin-top: -50px;
+}
+.servicesLogos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.servicesLogos h4 {
+    margin-top: 95px;
+    font-size: 18px;
+    text-align: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #777777;
+    margin-top: -13px;
+    text-align: center;
+}
+.servlogo1 {
+    background-image: url('../img/icon1.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.servlogo2 {
+    background-image: url('../img/icon2.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.servlogo3 {
+    background-image: url('../img/icon3.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+#sectionPortfolio {
+    background-color: #f7f7f7;
+    height: 550px;
+}
+ .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+ }
+.portfolio p {
+    margin-top: -30px;
+    font-size: 16px;
+    color: #777777;
+}
+ .portfolioImg {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     height: 300px;
+     margin-top: 60px;
+ }
+ .portfoliImg1 {
+    background-image: url('..//img/img1.jpg'); 
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 310px; 
+ }
+ .portfoliImg2 { 
+    background-image: url('..//img/img2.jpg');
+    background-position: top center;
+    background-repeat: no-repeat; 
+    height: 300px;
+    width: 310px; 
+ }
+ .portfoliImg3 {
+    background-image: url('..//img/img3.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 310px; 
+ }
+ .aboutUs{
+     margin-top: 200px;
+ }
+ .aboutUs p {
+    margin-top: -30px;
+    font-size: 16px;
+    color: #777777;
+}
+.about1 {
+    background: url('..//img/about1.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 185px;
+    margin-top: 80px;
+    padding-left: 40px; 
+}
+.about2 {
+    background: url('..//img/about2.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 185px;
+}
+.about3 {
+    background: url('..//img/about3.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 185px;
+    padding-left: 40px;
+}
+.about4 {
+    background: url('..//img/about4.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 185px;
+}
+h5 {
+    font-size: 18px;
+}
+.about1 h5 {
+    width: 290px;
+    text-align: right;
+}
+.about1 p {
+    width: 290px;
+    text-align: right;
+}
+.about3 h5 {
+    width: 290px;
+    text-align: right;
+}
+.about3 p {
+    width: 290px;
+    text-align: right;
+}
+.about2 h5 {
+    width: 290px;
+    text-align: left;
+    margin-left: 600px;
+}
+.about2 p {
+    width: 290px;
+    text-align: left;
+    margin-left: 600px;
+}
+.about4 h5 {
+    width: 290px;
+    text-align: left;
+    margin-left: 600px;
+}
+.about4 p {
+    width: 290px;
+    text-align: left;
+    margin-left: 600px;
+}
+#footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px auto;
+}
